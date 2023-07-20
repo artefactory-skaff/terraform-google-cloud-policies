@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gcp-policies
+  title: GCP Policies
+  description: |
+    GCP Policies is an opinionated terraform module to apply default GCP organization, folders or projects policies
+  annotations:
+    github.com/project-slug: artefactory/terraform-google-cloud-policies
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: user:Cedric-Magnan
+  lifecycle: experimental
