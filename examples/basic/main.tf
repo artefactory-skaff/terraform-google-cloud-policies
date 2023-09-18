@@ -12,7 +12,7 @@ provider "google" {
   billing_project       = "<PROJECT_ID>"
 }
 
-module "google_cloud_policies" {
+module "cloud-policies" {
   source  = "artefactory/cloud-policies/google"
   version = "~> 0"
 
