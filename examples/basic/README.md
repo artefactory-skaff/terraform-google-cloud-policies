@@ -1,7 +1,7 @@
 This will deploy the pre-defined policies at a folder level
 
 ```hcl
-module "google_cloud_policies" {
+module "cloud-policies" {
   source  = "artefactory/cloud-policies/google"
   version = "~> 0"
 
