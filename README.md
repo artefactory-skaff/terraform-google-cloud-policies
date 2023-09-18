@@ -3,7 +3,7 @@
 A Terraform module to deploy GCP resource policies at project, folder and organization levels.
 
 - [Github repo](https://github.com/artefactory/terraform-google-cloud-policies)
-- [Terraform module registry](https://registry.terraform.io/modules/artefactory/gcp-foundations/google-cloud-policies/latest)
+- [Terraform module registry](https://registry.terraform.io/modules/artefactory/cloud-policies/google/latest)
 
 ## Prerequisites
 
