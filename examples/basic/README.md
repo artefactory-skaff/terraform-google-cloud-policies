@@ -27,7 +27,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_google_cloud_policies"></a> [google\_cloud\_policies](#module\_google\_cloud\_policies) | artefactory/gcp-foundations/google-cloud-policies | ~> 0 |
+| <a name="module_cloud-policies"></a> [cloud-policies](#module\_cloud-policies) | artefactory/cloud-policies/google | ~> 0 |
 
 ## Resources
 
