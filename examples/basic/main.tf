@@ -1,3 +1,17 @@
+terraform {
+  required_providers {
+    google = {
+      source  = "hashicorp/google"
+      version = "4.72.0"
+    }
+  }
+}
+
+provider "google" {
+  user_project_override = true
+  billing_project       = "<PROJECT_ID>"
+}
+
 module "google_cloud_policies" {
   source  = "artefactory/gcp-foundations/google-cloud-policies"
   version = "~> 0"

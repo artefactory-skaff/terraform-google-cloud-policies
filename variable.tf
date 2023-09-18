@@ -20,7 +20,7 @@ variable "allowed_domains" {
 
 variable "export_candidate_parent_ids" {
   type        = list(string)
-  description = "List of GCP folders or organizations where the GCP ressources can be exported"
+  description = "List of GCP organizations where the GCP ressources can be exported"
   default     = []
 }
 
