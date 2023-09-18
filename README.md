@@ -22,7 +22,7 @@ Unfortunately, you will need the `roles/orgpolicy.policyAdmin` role at organizat
 
 Here is a quick overview of what this module will provision :
 
-![https://cloud.google.com/resource-manager/docs/organization-policy/overview](docs/archi.png)
+![https://cloud.google.com/resource-manager/docs/organization-policy/overview](https://raw.githubusercontent.com/artefactory/terraform-google-cloud-policies/main/docs/archi.png)
 
 
 # Explanations for each policy
