@@ -1,11 +1,31 @@
-# Google Cloud Policies
+# terraform-google-cloud-policies
 
-This Terraform module deploys an opiniated list of Google Cloud organizations, folders or project policies
+A Terraform module to deploy GCP resource policies at project, folder and organization levels.
 
-The terraform-docs can be found [here](terraform/README.md) !
+- [Github repo](https://github.com/artefactory/terraform-google-cloud-policies)
+- [Terraform module registry](https://registry.terraform.io/modules/artefactory/gcp-foundations/google-cloud-policies/latest)
 
-Here are the explanations for each policy :
+## Prerequisites
 
+- Terraform. Tested with v1.5.2
+- A GCP resource (organization, folder or project) and an authenticated gcloud CLI
+
+## Permissions
+
+Unfortunately, you will need the `roles/orgpolicy.policyAdmin` role at organization level, even though the policies are applied at the folder or project level.
+
+## Usage
+
+[Go to the `examples` directory to view code samples.](https://github.com/artefactory/terraform-google-cloud-policies/tree/main/examples)
+
+## Architecture
+
+Here is a quick overview of what this module will provision :
+
+![https://cloud.google.com/resource-manager/docs/organization-policy/overview](docs/archi.png)
+
+
+# Explanations for each policy
 
 | Policy                                                                                                                                                                                                   | Permission                                               | Why ?                                                                                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
