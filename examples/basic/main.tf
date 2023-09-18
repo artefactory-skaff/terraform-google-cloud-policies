@@ -13,7 +13,7 @@ provider "google" {
 }
 
 module "google_cloud_policies" {
-  source  = "artefactory/gcp-foundations/google-cloud-policies"
+  source  = "artefactory/cloud-policies/google"
   version = "~> 0"
 
   parent_id            = "folders/<FOLDER_ID>" # Folder where the pre-defined policies will be applied
