@@ -2,9 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: gcp-policies
-  title: GCP Policies
+  title: Terraform module for GCP Org Policies
   description: |
-    GCP Policies is an opinionated terraform module to apply default GCP organization, folders or projects policies
+    This is an opinionated terraform module to apply default GCP organization, folders or projects policies
   labels:
     technical: "1"
   annotations:
