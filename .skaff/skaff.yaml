@@ -1,6 +1,6 @@
 spec_version: 1
 
-# Everyting in this file will be used to populate the catalog on skaff.artefact.com
+# Everything in this file will be used to populate the catalog on skaff.artefact.com
 # It is also vectorized as is for the search, so make sure to provide relevant keywords
 
 name: Terraform module GCP Org Policies
@@ -9,7 +9,7 @@ description: >
   Opinionated terraform module to apply default GCP organization, folders or projects policies.
 documentation_url: https://github.com/artefactory/terraform-google-cloud-policies/blob/main/README.md
 
-type: deployable      # deployable, knowldege pack
+type: deployable      # deployable, knowledge pack
 lifecycle: prototype  # prototype, production
 
 users:                # DS, DA, DE
